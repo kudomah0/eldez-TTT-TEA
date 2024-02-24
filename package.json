@@ -1,0 +1,24 @@
+{
+  "name": "eldez-ttt",
+  "version": "1.0.0",
+  "description": "Welcome to Tic Tac Toe Sci-Fi Edition! This is a simple web-based game of Tic Tac Toe with a futuristic twist. The game is built using HTML, CSS, and JavaScript, and features a sci-fi inspired design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kudomah0/eldez-TTT-TEA.git"
+  },
+  "keywords": [
+    "Tic",
+    "Tac",
+    "Toe"
+  ],
+  "author": "eldez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kudomah0/eldez-TTT-TEA/issues"
+  },
+  "homepage": "https://github.com/kudomah0/eldez-TTT-TEA#readme"
+}
