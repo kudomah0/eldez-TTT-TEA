@@ -1,95 +1,38 @@
 body {
-    background-color: #000;
+    background-color: #000 url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #fff;
     font-family: 'Arial', sans-serif;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-h1, h2, h3 {
-    color: #00ff00; /* green */
-}
-
-a {
-    color: #00ffff; /* cyan */
-    text-decoration: none;
-}
-
-a:hover {
-    color: #ff00ff; /* magenta */
-}
-
-button {
-    background-color: #008080; /* teal */
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #00bfbf; /* darker teal */
-}
-
-.card {
-    background-color: rgba(0, 0, 0, 0.8); /* semi-transparent black */
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5); /* cyan glow */
-}
-
-.card h2 {
-    color: #00ffff; /* cyan */
-}
-
-.card p {
-    color: #cccccc; /* light gray */
-}
-
-input[type="text"], input[type="email"], textarea {
-    background-color: rgba(255, 255, 255, 0.1); /* semi-transparent white */
-    color: #fff;
-    border: 1px solid #00ffff; /* cyan */
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-input[type="submit"] {
-    background-color: #008080; /* teal */
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-input[type="submit"]:hover {
-    background-color: #00bfbf; /* darker teal */
-}
-
-#board {
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
-    gap: 5px;
-}
-
-.cell {
-    width: 100px;
-    height: 100px;
-    border: 1px solid #00ffff; /* cyan */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #00ff00; /* green */
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 150px); /* Lebih besar dari sebelumnya */
+    grid-template-rows: repeat(3, 150px); /* Lebih besar dari sebelumnya */
+    gap: 20px; /* Lebih besar dari sebelumnya */
+    margin: 20px auto;
+}
+
+.cell {
+    width: 150px; /* Lebih besar dari sebelumnya */
+    height: 150px; /* Lebih besar dari sebelumnya */
+    border: 2px solid #00ffff; /* cyan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -97,18 +40,17 @@ input[type="submit"]:hover {
 .cell:hover {
     background-color: rgba(0, 255, 255, 0.1); /* semi-transparent cyan */
 }
+
 .restart-button {
-    background-color: #ff0000; /* red */
+    background-color: #008080; /* teal */
     color: #fff;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 20px;
-    display: inline-block;
 }
 
 .restart-button:hover {
-    background-color: #ff6666; /* darker red */
+    background-color: #00bfbf; /* darker teal */
 }
