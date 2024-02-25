@@ -13,7 +13,10 @@
   "keywords": [
     "Tic",
     "Tac",
-    "Toe","TEA","Testnet","Project"    
+    "Toe",
+    "TEA",
+    "Testnet",
+    "Project"
   ],
   "author": "eldez",
   "license": "MIT",
@@ -22,6 +25,7 @@
   },
   "homepage": "https://github.com/kudomah0/eldez-TTT-TEA#readme",
   "dependencies": {
+    "rubygems": "^1.0.3",
     "uuid": "^9.0.1"
   }
 }
