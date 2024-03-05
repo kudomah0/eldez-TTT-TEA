@@ -1,0 +1,50 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Style untuk header */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style untuk footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+
+#display {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.keys button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.keys button:hover {
+    background-color: #e0e0e0;
+}
+
+.keys button:active {
+    background-color: #d0d0d0;
+}
