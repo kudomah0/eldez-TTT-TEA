@@ -1,5 +1,5 @@
 {
-  "name": "@kudomah0/eldez-ttt",
+  "name": "eldez-ttt",
   "version": "1.2.9",
   "description": "Welcome to Tic Tac Toe Sci-Fi Edition! This is a simple web-based game of Tic Tac Toe with a futuristic twist. The game is built using HTML, CSS, and JavaScript, and features a sci-fi inspired design.",
   "main": "index.js",
