@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kudomah0/eldez-TTT-TEA.git"
+    "url": "https://github.com/kudomah0/eldez-TTT-TEA.git"
   },
   "keywords": [
     "Tic",
@@ -19,7 +19,10 @@
     "Project"
   ],
   "author": "eldez",
-  "license": "MIT",
+  "license": {
+    "type" : "MIT",
+    "url": "https://www.opensource.org/licenses/mit-license.php"
+    },
   "bugs": {
     "url": "https://github.com/kudomah0/eldez-TTT-TEA/issues"
   },
