@@ -1,0 +1,22 @@
+{
+  "name": "tea-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kudomah0/tea-game.git"
+  },
+  "author": "eldez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kudomah0/tea-game/issues"
+  },
+  "homepage": "https://github.com/kudomah0/tea-game#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
